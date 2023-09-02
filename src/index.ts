@@ -8,6 +8,6 @@ const port = process.env.PORT || 8000;
 
 app.use("/users", userRoutes);
 
-app.get("/", (req, res) => res.send("Hello Worlda!"));
+app.get("/", (req, res) => res.send("Server is Ready"));
 
 app.listen(port, () => console.log(`Server is running on port ${port}`));
